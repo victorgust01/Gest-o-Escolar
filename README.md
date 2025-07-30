@@ -11,6 +11,7 @@ Bem-vindo ao Projeto de Gestão Escolar, um sistema desenvolvido em Java com o o
 
 ## Integrantes
 - [Victor] - [Desenvolvimento]
-- [Vinícius] - [Papel 2]
-- [João Arthur] - [Papel 3]
+- [Vinícius] - [Apresentação]
+- [João Arthur] - [Slides]
+- [Cabral] - [Apresentação]
 
