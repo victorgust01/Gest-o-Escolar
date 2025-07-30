@@ -1,8 +1,8 @@
-public class Disciplina extends Pessoa {
+public class Disciplina extends Molde {
     private String materia;
 
-    public Disciplina (String nome, String dataNascimento, String materia) {
-        super(nome, dataNascimento);
+    public Disciplina (String nome, String materia) {
+        super(nome);
         this.materia = materia;       
     }
 
@@ -15,6 +15,6 @@ public class Disciplina extends Pessoa {
     }
 
     public void exibirDados () {
-        System.out.println("Professor " + getNome() + ", nascido em " + getDataNascimento() + ", responsável pelas aulas de " + getMateria() + ".");
+        System.out.println("Disciplina: " + getNome() + ", matéria: " + materia);
     }
 }

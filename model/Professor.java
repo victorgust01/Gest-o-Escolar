@@ -1,8 +1,8 @@
-public class Professor extends Pessoa {
+public class Professor extends Molde {
     private String disciplina;
 
-    public Professor(String nome, String dataNascimento, String disciplina) {
-        super(nome, dataNascimento);
+    public Professor(String nome, String disciplina) {
+        super(nome);
         this.disciplina = disciplina;
     }
 
@@ -15,8 +15,6 @@ public class Professor extends Pessoa {
         }
 
     public void exibirDados() {
-        System.out.println("Nome: " + getNome());
-        System.out.println("Data de Nascimento: " + getDataNascimento());
-        System.out.println("Disciplina: " + disciplina);
+        System.out.println("Professor " + getNome() + ", responsável pela disciplina de " + disciplina + ".");
     }
 }

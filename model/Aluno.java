@@ -1,10 +1,10 @@
-public class Aluno extends Pessoa {
+public class Aluno extends Molde {
 	private String matricula;
 	private String curso;
     private String turma;
 	
-	public Aluno(String nome, String dataNascimento, String matricula, String curso, String turma) {
-		super(nome, dataNascimento);
+	public Aluno(String nome, String matricula, String curso, String turma) {
+		super(nome);
 		this.matricula = matricula;
 		this.curso = curso;
         this.turma = turma;
@@ -35,7 +35,7 @@ public class Aluno extends Pessoa {
     }
 	
 	public void exibirDados() {
-		System.out.println("Aluno: " + getNome() + ", Matricula: " + matricula + ", Curso: " + curso + ", Data de Nascimento: " + getDataNascimento() + ", Turma: " + turma);
+		System.out.println("Nome: " + getNome() + ", matrícula: " + matricula + ", curso: " + curso + ", turma: " + turma);
 	}
 
 }
