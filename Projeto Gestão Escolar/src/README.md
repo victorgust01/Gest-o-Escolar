@@ -10,7 +10,7 @@ Bem-vindo ao Projeto de Gestão Escolar, um sistema desenvolvido em Java com o o
 - Organizar turmas;
 
 ## Integrantes
-- [Victor] - [Papel 1]
+- [Victor] - [Desenvolvimento]
 - [Vinícius] - [Papel 2]
 - [João Arthur] - [Papel 3]
 
